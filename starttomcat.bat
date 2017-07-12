@@ -1,1 +1,0 @@
-start /d "D:\Appraisal Application" npm run dev
