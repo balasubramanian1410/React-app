@@ -1,0 +1,87 @@
+.widthAuto{
+	width: auto;
+}
+.floatLeft{
+	float: left;
+}
+.displayFlex{
+	display: flex;
+}
+.allignItemsCenter{
+	align-items: center;
+}
+.checkBoxPadding{
+	padding: 20px;
+}
+.bgGrey1{
+	background: #dddad6;
+}
+.bgGrey2{
+	background: #ebeae7;
+}
+.clearBoth{
+	clear: both;
+}
+.pad6px{
+	padding: 6px;
+}
+.pad-6-25{
+	padding: 6px 25px;
+}
+.bgBlue{
+	background-color: #45d0d1;
+}
+.borderNone{
+	border: none;
+}
+.borderGrey3{
+	border: 1px solid rgb(195, 192, 185);
+}
+.margin6Px{
+	margin: 6px;
+}
+.marginAuto{
+	margin: auto !important;
+}
+.width25Percent{
+	width: 25%;
+}
+.width100Percent{
+	width: 100%;
+}
+.padd0{
+	padding: 0 !important;
+}
+.wordBreak{
+	word-wrap: break-word;
+}
+
+
+@media (min-width: 1200px){
+.bgGrey2 {
+	background-color: #4CAF50;
+}
+.bgGrey1{
+	background-color: #607D8B;
+}	
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px){
+	
+.bgGrey2 {
+	background-color: #ff9800;
+}
+.bgGrey1{
+	background-color: #4caf50;
+}
+}	
+
+@media (min-width: 768px) and (max-width: 992px){
+.bgGrey2 {
+	background-color: #4CAF50;
+}
+.bgGrey1{
+	background-color: #607D8B;
+}	
+}
